@@ -1,4 +1,4 @@
-package com.chapter0.practice;
+package com.simpleFactory.practice;
 
 /**
  * @Author: by Administrator on 2018/3/6.
