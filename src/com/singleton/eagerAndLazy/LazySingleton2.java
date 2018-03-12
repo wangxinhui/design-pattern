@@ -12,7 +12,7 @@ public class LazySingleton2 {
     private LazySingleton2(){
 
     }
-    synchronized public static LazySingleton2 getInstance(){
+    public static LazySingleton2 getInstance(){
         if (instance == null){
             synchronized (LazySingleton2.class){
                 instance = new LazySingleton2();

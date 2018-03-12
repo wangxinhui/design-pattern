@@ -1,7 +1,6 @@
 package com.factories.abstractFactory;
 
 import org.dom4j.DocumentException;
-import org.dom4j.Text;
 
 /**
  * @Author: by Administrator on 2018/3/8.
