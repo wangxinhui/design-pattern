@@ -1,4 +1,4 @@
-package com.compositePattern;
+package com.compositePattern.demo;
 
 public class TextFile extends AbstractFile{
 

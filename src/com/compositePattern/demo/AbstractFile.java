@@ -1,4 +1,4 @@
-package com.compositePattern;
+package com.compositePattern.demo;
 
 public abstract class AbstractFile {
     public abstract void addFile(AbstractFile file);

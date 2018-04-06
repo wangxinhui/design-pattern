@@ -1,9 +1,9 @@
-package com.compositePattern;
+package com.compositePattern.demo;
 
-public class ImageFile extends AbstractFile{
+public class VideoFile extends AbstractFile{
 
     private String name;
-    public ImageFile(String name) {
+    public VideoFile(String name) {
         this.name = name;
     }
 
@@ -24,6 +24,6 @@ public class ImageFile extends AbstractFile{
 
     @Override
     public void killVirus() {
-        System.out.println("----search image file " +name+" kill virus!");
+        System.out.println("----search video file " +name+" kill virus!");
     }
 }
